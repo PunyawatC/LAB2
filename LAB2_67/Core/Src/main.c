@@ -136,7 +136,7 @@ int main(void)
 	 		  sumVoltage = 0;
 	 		  sumTemp = 0;
 	 		 AvgVoltage = ((AvgVoltage*3.3*1000)/4096)*2;
-	 		 AvgTemp = (((((AvgTemp*3.3*1000)/4096)-760)/2.5)+25)+273.5;
+	 		 AvgTemp = (((((AvgTemp*3.3*1000)/4096)-760)/2.5)+25)+273.15;///273.5
 	 	  }
 
   }
